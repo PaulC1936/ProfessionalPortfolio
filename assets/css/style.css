@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+a { color: none; 
+}
+a { color: none; 
+}
+body {
+  font-family: Arial;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.main-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px;
+  background: red;
+  color: #fff;
+
+}
+/* avatar pic centered, limited to constrin proportions */
+.avatarpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-height: 350px;
+  max-width: 350px;
+
+  
+}
+
+
+.maincard {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.maincardheader {
+  padding: 20px;
+  background: none;
+  color:red;
+  text-align: center;
+}
+
+.maincardimg {
+  max-width: 600px;
+  max-height: 600px;
+  padding: 40px;
+}
+
+/* flexbox used to manage project gallery */
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  text-align: center;
+  border-style: none;
+  border-width: 1px;
+  padding-bottom: 20px;
+}
+
+.card header {
+  padding-top: 40px;
+  background: none;
+  color:red;
+}
+
+.card img {
+  width: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  padding: 40px;
+}
+
+.about {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  border: 1px red;
+  padding: 100px;
+  margin: 100px;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 22px;
+  color: red;
+}
